@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:docs.claude.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(claude auto-mode *)",
+      "Bash(python -c \"import ast, sys; [ast.parse\\(open\\(f, encoding='utf-8'\\).read\\(\\), f\\) for f in ['skill.py','__init__.py','src/__init__.py','src/config.py','src/logger.py','src/file_lock.py','src/models.py','src/scanner.py','src/git_sync.py','src/retry_queue.py','src/snapshot.py','src/monitor.py','src/scheduler.py','examples/manual_trigger.py','examples/agent_integration.py','tests/test_smoke.py']]; print\\('all parse ok'\\)\")"
+    ]
+  }
+}
